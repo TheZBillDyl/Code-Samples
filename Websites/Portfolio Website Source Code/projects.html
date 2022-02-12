@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Dylan Oelke</title>
+  </head>
+<body>
+<div  id="home"></div>
+  <!--Menu Bar-->
+  <div class="sticky">
+    <ul class="rounded">
+      <li><h2 style="float: left; padding-left: 10px; padding-right: 10px;">Dylan Oelke</h2></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="socialMedia"><a href="https://www.facebook.com/dylan.oelke/" class="fa fa-facebook" target="_blank"></a></li>
+      <li class="socialMedia"><a href="https://twitter.com/KntaStudios" class="fa fa-twitter" target="_blank"></a></li>
+      <li class="socialMedia"><a href="https://www.linkedin.com/in/dylan-oelke-33b4531a9/" class="fa fa-linkedin" target="_blank"></a></li>
+    </ul>
+    
+  </div>
+
+<!--Portfolio Section-->
+<div class = "backDrop rounded">
+  <h1 style="text-align: center; margin-bottom: 1%; margin-top: 0%;">Click for details</h1>
+  <div class="flexBox">
+    <a class="grid-space" href="#metalminers"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzY3MDY2ODcucG5n/315x250%23c/L%2BxKen.png"><span class="dropDowntext">Unity | C# | Personal Project | TBD Steam Release</span></div></a>
+    <a class="grid-space" href="#requiem"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzcxODA4MDkucG5n/315x250%23c/rmKsJY.png"><span class="dropDowntext">Unity | C# | Game Jam</span></div></a>
+    <a class="grid-space" href="#farfromhome"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzQ3NjkwOTkucG5n/315x250%23c/S51oYX.png"><span class="dropDowntext">Unity | C# | Personal Project</span></div></a>
+    <a class="grid-space" href="#thewatcher"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzMzNjA0NTgucG5n/315x250%23c/xgmDVv.png"><span class="dropDowntext">Unity | C# | Game Jam</span></div></a>
+    <a class="grid-space" href="#dangerman"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzQ1MDU2NTYucG5n/315x250%23c/WXkpba.png"><span class="dropDowntext">Unity | C# | Game Jam</span></div></a>
+    <a class="grid-space" href="#pacmanwithgunz"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzMwMjU0NzYucG5n/315x250%23c/9sOa%2FB.png"><span class="dropDowntext">Unity | C# | School Project</span></div></a>
+    <a class="grid-space" href="#castaway"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzUxMTAxNzUucG5n/315x250%23c/xumaJ5.png"><span class="dropDowntext">Unity | C# | Game Jam</span></div></a>
+    <a class="grid-space" href="#penguingame"><div class="dropDown"><img class="grid-item rounded" src="https://img.itch.zone/aW1nLzQzNjM5NDEucG5n/315x250%23c/adqpgO.png"><span class="dropDowntext">Unity | C# | Game Jam</span></div></a>
+  </div>
+</div>
+
+<!--Game Details section-->
+<div class = "backDrop rounded">
+    <h1 style="text-align: center; margin-bottom: 1%; margin-top: 0%;">What I did for each project</h1>
+    <h2 id="metalminers" style="text-align: center;">Metal Miners</h2>
+    <h2>Dynamic Health System</h2>
+    <p>My health system can be used on any damageable object imaginable. The health system uses an abstract class named "Damageable" that consists of a few virtual methods. This structure allows for easy adaprtability to any situation involving destruction or combat. Every object in the game that the player can attack
+        uses this script as a base and slightly changes it to fit the objects needs. For example, a crate object may run the base "Damage" method but, run some custom code as well. So a player and a crate both have the "Damageable" script but, the crate does slightly different things when its destroyed compared to the player. 
+    </p>
+    <h2>Resource Spawning</h2>
+    <p>The resource spawning system is built to allow easy implementation of new maps into the game. There is a "Resource Controller" that exists in the scene and it spawns resources in any available "Resource Spawn Zone". Each Resource Spawn Zone finds the Resource Controller and tells it that it exists.
+        The Resource Controller simply iterates through the list of all its registered Resource Spawn Zones and spawns a rock object at a random location. This system is extremely efficient and is easily expandable. It also allows for creative freedom in the placement of the zones and the amount of zones.
+    </p>
+    <h2>Ability System</h2>
+    <p>The ability system is remarkably expandable and powerful. There is a base abstract class called "Ability" which contains some abstract methods. An ability can be created by simply deriving from the Ability class and overriding the abstract methods to do whatever the ability desires.</p>
+    <div class="dropDown"></div>
+  </div>
+<!--Contact Information Section-->
+<div class="backDrop rounded" id="contact">
+  <h1 style="text-align: center;">Contact Information</h1>
+  <div class="backDrop rounded" id="subBox">
+    <h2 class="label">Email: </h2>
+    <h2 style="text-align: center;"><a href="mailto:dylanoelke.business@gmail.com" style="text-decoration: none;">dylanoelke.business@gmail.com</a></h2>
+  </div>
+</div>
+
+</body>
+
+</html>
+
