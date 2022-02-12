@@ -1,0 +1,125 @@
+#EnlargeBackground{
+	background-size: 2560px 1440px;
+}
+
+#buttonGroup {
+	text-align: center;
+   }
+#buyButton {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 36px;
+	color: #dbd469;
+}
+   
+ p {
+ 	color: #c6c6c6;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ 	text-indent: 50px;
+ 	text-align: left;
+ }
+
+ #p2 {
+ 	text-indent: 0px;
+ 	text-align: left;
+ 	color: #c6c6c6;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+
+ }
+
+ #content {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #14171a;
+    margin-top: 50px;
+    text-align: center; 
+    border:1px solid #343A40
+}
+
+iframe {
+  border: 3px solid #343A40;
+}
+
+h1 {
+	font-size: 36px;
+	color: #dbd469;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+h2{
+	font-size: 18px;
+	
+	color: #9a8164;
+	padding-bottom: 50px;
+	
+}
+
+h3 {
+	font-size: 18px;
+	padding-bottom: 0px;
+	color: #9a8164;
+}
+
+body {
+
+	font-family: Calibri, Tahoma, Sans Serif;
+	font-size: 120%;
+	line-height: 140%;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+
+}
+
+#ForumContent{
+	border:1px solid #343A40;
+	background-color: #14171a;
+	margin: 0 auto;
+	width: 100%;
+	color: #dbd469;
+	
+}
+
+#ForumDesc{
+	color: #AAAAAA;
+	line-height: 20px;
+	padding-left: 80px;
+}
+
+ul {
+	margin-bottom: 1.5em;
+	margin-left: 5em;
+	text-align: left;
+	color: #c6c6c6;
+}
+ol {
+	margin-bottom: 1.5em;
+	margin-left: 5em;
+	text-align: left;
+	color: #c6c6c6;
+}
+
+li {
+	margin-bottom: 0.5em;
+}
+
+#img-spacing{
+	padding: 5px;
+	background: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37.75%;
+}
+
+#ForumImg{
+	
+	float: left;
+	padding-left: 30px;
+
+}

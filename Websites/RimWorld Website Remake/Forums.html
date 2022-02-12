@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>RimWorld Site Redesign</title>
+    <link href="style-sheet.css" rel="stylesheet" type="text/css">
+  </head>
+  <body background="world.png" id="EnlargeBackground">
+  
+  <div id="buttonGroup">
+    <a class="btn btn-dark" href="index.html" style="width: 15%" type="submit">Home</a>
+    <a class="btn btn-dark" href="DevBlog.html" style="width: 15%" type="submit">Game Updates</a>
+    <a class="btn btn-dark" href="https://tynansylvester.com/" style="width: 15%" type="submit">Dev Blog</a>
+    <a class="btn btn-dark" href="https://rimworldwiki.com/" style="width: 15%" type="submit">Wiki</a>
+    <a class="btn btn-dark" href="FAQ.html" style="width: 15%" type="submit">FAQ</a>
+    <a class="btn btn-dark" href="Forums.html" style="width: 15%" type="submit">Forums</a>
+  </div>
+  <div id="buyButton">
+    <a class="btn btn-dark" href="https://store.steampowered.com/app/294100/RimWorld/" style="width: 15%; color: #dbd469; font-size: 36px" type="submit">Buy RimWorld</a>
+  </div>
+
+
+  <!--- Content --->
+  <div id="content">
+    <h1>Forums</h1>
+    <form class="windowbg" id="guest_form" style="color: #c6c6c6; font-family: Calibri, Tahoma, Sans Serif;
+  font-size: 120%;
+  line-height: 140%;" action="https://ludeon.com/forums/index.php?action=login2" method="post" accept-charset="UTF-8" onsubmit="hashLoginPassword(this, 'ad41903e5868960aa4fd822ba5b52b7c');">
+          Please <a href="https://ludeon.com/forums/index.php?action=login">login</a> or <a href="https://ludeon.com/forums/index.php?action=register">register</a>.<br>
+          <input type="text" name="user" size="10" class="input_text">
+          <input type="password" name="passwrd" size="10" class="input_password">
+          <select name="cookielength">
+            <option value="60">1 Hour</option>
+            <option value="1440">1 Day</option>
+            <option value="10080">1 Week</option>
+            <option value="43200">1 Month</option>
+            <option value="-1" selected="selected">Forever</option>
+          </select>
+          <input type="submit" value="Login" class="button_submit"><br>
+          Login with username, password and session length
+          <input type="hidden" name="hash_passwrd" value=""><input type="hidden" name="f8020ba40e9" value="ad41903e5868960aa4fd822ba5b52b7c">
+        </form>
+
+    <h1 style= "text-align: left; padding-left: 50px; color: #ddd;">RimWorld</h1>
+
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=1.0" style="color:#dbd469; text-decoration:none">General Discussions</a></h3>
+        <p id="ForumDesc">Talk about Ludeon and RimWorld.</p>
+    </div>
+    
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=6.0" style="color:#dbd469; text-decoration:none">Suggestions</a></h3>
+        <p id="ForumDesc">Discuss your ideas for RimWorld with other players.</p>
+    </div>
+
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=12.0" style="color:#dbd469; text-decoration:none">Mods</a></h3>
+        <p id="ForumDesc">Discuss mods for RimWorld.</p>
+    </div>
+
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=8.0" style="color:#dbd469; text-decoration:none">Video</a></h3>
+        <p id="ForumDesc">Post your RimWorld videos here.</p>
+    </div>
+
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=10.0" style="color:#dbd469; text-decoration:none">Creative Rewards</a></h3>
+        <p id="ForumDesc">Discuss creative rewards ideas and guidelines.</p>
+    </div>
+
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=9.0" style="color:#dbd469; text-decoration:none">Support</a></h3>
+        <p id="ForumDesc">Technical questions and payment issues.</p>
+    </div>
+
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=11.0" style="color:#dbd469; text-decoration:none">Bugs</a></h3>
+        <p id="ForumDesc">Report bugs in RimWorld.</p>
+    </div>
+
+    <div id="ForumContent">
+      <img src="Assets/off.gif" id="ForumImg">
+      <h3 style="text-align: left; padding-left: 100px; color: #dbd469;"><a href="https://ludeon.com/forums/index.php?board=4.0" style="color:#dbd469; text-decoration:none">Off Topic</a></h3>
+        <p id="ForumDesc">For discussing other games, unicorns, movies, technology, and other off-topic subjects.</p>
+    </div>
+
+    <h1 style= "text-align: left; padding-left: 50px; color: #ddd; padding-top: 50px;">Help</h1>
+    <p>Welcome to Ludeon Forums, powered by Simple Machines Forum (SMF) software!</p>
+    <p>SMF is the elegant, effective, powerful and free forum software solution that this site is running. It allows users to communicate in discussion topics on a given subject in a clever and organized manner. Furthermore, it has a number of powerful features which end users can take advantage of. Help for many of SMF's features can be found by either clicking the question mark icon next to the relevant section or by selecting one of the links on this page. These links will take you to SMF's centrally-located documentation on the Simple Machines official site.</p>
+    <ul>
+              <li><a href="http://wiki.simplemachines.org/smf/Registering" target="_blank" class="new_win">Registering</a> - Many forums require users to register to gain full access.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Logging_In" target="_blank" class="new_win">Logging In</a> - Once registered, users must login to access their account.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Profile" target="_blank" class="new_win">Profile</a> - Each member has their own personal profile.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Search" target="_blank" class="new_win">Search</a> - Searching is an extremely helpful tool for finding information in posts and topics.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Posting" target="_blank" class="new_win">Posting</a> - The whole point of a forum, posting allows users to express themselves.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Bulletin_board_code" target="_blank" class="new_win">Bulletin Board Code (BBC)</a> - Posts can be spiced up with a little BBC.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Personal_messages" target="_blank" class="new_win">Personal Messages</a> - Users can send personal messages to each other.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Memberlist" target="_blank" class="new_win">Memberlist</a> - The memberlist shows all the members of a forum.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Calendar" target="_blank" class="new_win">Calendar</a> - Users can keep track of events, holidays, and birthdays with the calendar.</li>
+              <li><a href="http://wiki.simplemachines.org/smf/Features" target="_blank" class="new_win">Features</a> - Here is a list of the most popular features in SMF.</li>
+            </ul>
+            <p>For more information about how to use SMF, please see the <a href="http://wiki.simplemachines.org/smf" target="_blank" class="new_win">Simple Machines Documentation Wiki</a> and check out the <a href="https://ludeon.com/forums/index.php?action=credits">credits</a> to find out who has made SMF what it is today.</p>
+
+
+
+
+  </div>
+
+
+
+
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
